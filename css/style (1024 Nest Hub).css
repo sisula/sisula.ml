@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@media screen and (min-width: 913px) and (max-width: 1024px){
+	body {
+		background-image:  url(media/bg.jpg);
+		background-repeat: no-repeat;
+		background-size: auto;
+		position: fixed;
+		font-family: sans-serif;
+		overflow: hidden;
+	}
+	.nav_side_menu{
+        display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 28%;
+		background-color: rgba(0.5, 0.5, 0.2, 0.5);
+		border-right: 1px solid rgb(85, 82, 82);
+	} 
+	.logo{
+		padding: 20px;
+	}
+	table{
+		position: fixed;
+	}
+	.navbar_table tr td{
+		padding: 30px;
+	}
+	.navbar_table tr .desc a{
+		color: #fff;
+		text-decoration: none;
+		font-size: 18px;
+	}
+    .navbar_table tr .desc a:hover{
+        border: 1px solid #fff;
+		border-left: 6px solid #fff;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+	.navbar_table tr .icon{
+		padding-left: 37px;
+		padding-right: 30px;
+	}
+	.btm_2{
+		background: transparent;
+		background-color: rgba(0.5, 0.5, 0.2, 0.5);
+	}
+	/* Nav Side Menu 2*/
+
+	.nav_side_menu2{
+		display: block;
+		position: fixed;
+		background: rgba(0.5, 0.5, 0.2, 0.5);
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 5%;
+		border-right: 1px solid #fff;
+	}
+	.nav_side_bar_2{
+		position: fixed;
+		top: 12%;
+	}
+	.nav_side_bar_2 tr td{
+		padding-left: 28px;
+		padding-bottom: 30px;
+	}
+	.nav_side_bar_2 tr td img{
+		background: black;
+		border: 1px solid #fff;
+		padding: 10px;
+		border-radius: 50px;
+	}
+	.nav_side_bar_2 tr td button{
+		display: none;
+		position: relative;
+		background: rgba(0.5, 0.5, 0.2, 0.5);
+		width: 150px;
+		right: 25px;
+		padding-top: 13px;
+		padding-bottom: 13px;
+		border: 1px solid #fff;
+		border-radius: 20px;
+	}
+	.nav_side_bar_2 tr td button a{
+		font-weight: bold;
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+

@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.nav_side_menu2{
+	display: none;
+}
+@media screen and (min-width: 541px) and (max-width: 769px){
+	body {
+		background-image:  url(media/bg.jpg);
+		background-repeat: no-repeat;
+		background-size: auto;
+		position: fixed;
+		font-family: sans-serif;
+		overflow: hidden;
+	}
+	.nav_side_menu{
+		position: fixed;
+		top: 20%;
+		left: 20%;
+		height: 56%;
+		width: 60%;
+		background-color: rgba(0.5, 0.5, 0.2, 0.5);
+		border: 1px solid #fff;
+	} 
+	table{
+		position: relative;
+	}
+	.navbar_table tr td{
+		padding: 32px;
+	}
+	.navbar_table tr .desc a{
+		color: #fff;
+		text-decoration: none;
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+}
+
+

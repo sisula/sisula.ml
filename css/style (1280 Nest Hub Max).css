@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@media screen and (min-width: 1025px){
+	body {
+		background-image:  url(../media/bg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: fixed;
+		font-family: sans-serif;
+		overflow: hidden;
+	}
+	.nav_side_menu{
+        display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 28%;
+		background-color: rgba(0.5, 0.5, 0.2, 0.5);
+		border-right: 1px solid rgb(85, 82, 82);
+	} 
+	.logo{
+		padding: 20px;
+	}
+	table{
+		position: fixed;
+	}
+	.navbar_table tr td{
+		padding: 30px;
+	}
+	.navbar_table tr .desc a{
+		color: #fff;
+		text-decoration: none;
+		font-size: 18px;
+	}
+    .navbar_table tr .desc a:hover{
+        border: 1px solid #fff;
+		border-left: 6px solid #fff;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+	.navbar_table tr .icon{
+		padding-left: 37px;
+		padding-right: 30px;
+	}
+	.btm_2{
+		background: transparent;
+		background-color: rgba(0.5, 0.5, 0.2, 0.5);
+	}
+	.nav_side_menu2{
+		display: block;
+		position: fixed;
+		background: rgba(0.5, 0.5, 0.2, 0.5);
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 5%;
+		border-right: 2px solid #fff;
+	}
+	.nav_side_bar_2{
+		position: fixed;
+		top: 12%;
+	}
+	.nav_side_bar_2 tr td{
+		padding-left: 42px;
+		padding-bottom: 30px;
+	}
+	.nav_side_bar_2 tr td img{
+		background: black;
+		border: 2px solid #fff;
+		padding: 10px;
+		border-radius: 50px;
+	}
+	.nav_side_bar_2 tr td button{
+		display: none;
+		position: relative;
+		background: rgba(0.5, 0.5, 0.2, 0.5);
+		width: 150px;
+		right: 40px;
+		padding-top: 13px;
+		padding-bottom: 13px;
+		border: 1px solid #fff;
+		border-radius: 20px;
+	}
+	.nav_side_bar_2 tr td button p{
+		font-weight: bold;
+		color: #fff;
+		text-decoration: none;
+	}
+	.content{
+		display: none;
+		background-color: rgba(2, 5, 2, 0.5);
+		background-blend-mode:darken;
+		border: 1px solid #fff;
+		border-right: 10px solid #fff;
+		border-left: 10px solid #fff;
+		position: fixed;
+		left: 25%;
+		top: 10%;
+		width: 60%;
+		height: 80%;
+		overflow: auto;
+	}
+	.header_con{
+		padding: 20px;
+		width: 100%;
+	}
+	.con_title{
+		position: relative;
+		left: 700px;
+		text-decoration: bold;
+		text-align: center;
+		color: #fff;
+	}
+	.con_title{
+		position: fixed;
+	}
+	.header_con hr{
+		justify-content: center;
+		color: #fff;
+	}
+	.body_con .projects_list{
+		position: relative;
+		width: 100%;
+		height: 50px;
+		color: white;
+		background-color: rgba(145, 145, 135, 0.5);
+	}
+	.body_con .projects_list .num_project_list{
+		padding: 14px;
+	}
+}
+
+

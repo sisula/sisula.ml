@@ -101,13 +101,4 @@ $(document).ready(function(){
                 pre_content = flexbx_id_nv_2['6']
                 $(flexbx_id_nv_2['6']).slideDown()
             })
-
-            $.ajax({
-                type: "POST",
-                url: 'https://www.helakuru.lk/' + "esana/search",
-                data: { GET_NEWS_BY_ID: true, NEWS_ID: '94811',[csrfName]: csrfHash },
-                success: function (data) {
-                }
-            })
-
 })

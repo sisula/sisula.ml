@@ -1,7 +1,5 @@
 var preview_click = '' 
 var pre_content = ''
-var csrfName        = 'csrf';
-var csrfHash        = '39024f962d7ee2ede1f99ce788435c28';
 
 function count(func , id){
     try{

@@ -6,6 +6,9 @@
 .nav_side_menu2{
 	display: none;
 }
+	.content{
+		display: none;
+		}
 @media screen and (min-width: 361px) and (max-width: 375px){
 	body {
 		background-image:  url(../media/2bg.jpg);

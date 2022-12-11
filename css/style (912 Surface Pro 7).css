@@ -4,6 +4,12 @@
 	box-sizing: border-box;
 }
 
+.nav_side_menu2{
+	display: none;
+}
+	.content{
+		display: none;
+		}
 @media screen and (min-width: 821px) and (max-width: 912px){
 	body {
 		background-image:  url(media/bg.jpg);
